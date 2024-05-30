@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Dependency directories
+npm-debug.log
+
+# macOS files
+.DS_Store
+
+# Docker files
+# .dockerignore

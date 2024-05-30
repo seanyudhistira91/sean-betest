@@ -1,0 +1,28 @@
+{
+  "name": "ms-sean-betest",
+  "version": "1.0.0",
+  "description": "A basic Express.js application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "sean",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "redis": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.4.0",
+    "nodemon": "^2.0.22",
+    "sinon": "^9.2.4"
+  }
+}
